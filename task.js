@@ -19,7 +19,7 @@ addTaskBtn.addEventListener('click', function(){
         label.innerText = newInputTask.value;
         toDoContainer.appendChild(label);
 
-        var crossSymbol = document.createElement('span');
+        var crossSymbol = document.createElement('div');
         var txt = document.createTextNode("\u00D7");
         crossSymbol.id="idCrossSymbol"
         crossSymbol.appendChild(txt);
