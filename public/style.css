@@ -1,0 +1,63 @@
+
+html, body{
+    width: 80%;
+    margin: 0 auto;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 30px;
+}
+
+.container {
+    width: 360px;
+}
+
+#idNewTask {
+    width: 300px;
+    height: 36px;
+    border-width: 0;
+    border: 1px solid black;
+    outline: none;
+    font-size: 25px;
+    vertical-align: middle;
+}
+
+#addTaskBtn {
+    width: 55px;
+    height: 36px;
+    border-width: 0;
+    border: 1px solid black;
+    outline: none;
+    font-size: 25px;
+    vertical-align: middle;
+}
+
+#toDoContainer {
+    height: 50px;
+    width: 120px;
+    border: 0px solid black;
+    vertical-align: middle;
+    font-size: 25px;
+    height: 50px;
+    padding-top: 30px;
+}
+
+#idTaskCheckbox {
+    height: 20px;
+    width: 30px;
+    border: 0px solid black;
+    vertical-align: middle;
+}
+
+#idLabel {
+    height: 20px;
+    width: 100px;
+    border: 0px solid black;
+}
+
+#idCrossSymbol {
+    height: 20px;
+    width: 15px;
+    vertical-align: middle; 
+    position: absolute;
+    right: 300;
+
+}
